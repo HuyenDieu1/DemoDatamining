@@ -117,7 +117,7 @@ drive.mount('/content/drive')
 #         return None
 # 
 # # Cấu hình Google Gemini API
-# genai.configure(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyDs-p92yFU8CCzXJdtppQReC-VjHoynOhU"))
+# genai.configure(api_key=os.getenv("GEMINI_API_KEY", ""))
 # model = genai.GenerativeModel("gemini-2.0-flash-thinking-exp-01-21")
 # 
 # # --------------------- XỬ LÝ DỮ LIỆU ---------------------
